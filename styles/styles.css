@@ -6,4 +6,12 @@ body {
 }
 .jsless:hover {
     color: yellow;
+    background-color: tomato;
+}
+.name {
+    text-align: center;
+}
+.name:hover {
+    color: tomato;
+    background-color: yellow;
 }
