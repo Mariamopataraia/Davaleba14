@@ -13,12 +13,34 @@ const myObj = {
     address: 'Tbilisi'
 }
 
-// სტრინგების გამოტანა console.log-ში #3
-const myObject = {
+// Or
+const myObject = [
+{
+    name: 'Mathilde',
+    age: '29',
+    address: 'Tbilisi'
+},
+{
+    name: 'Mathilde',
+    age: '29',
+    address: 'Tbilisi'
+},
+{
     name: 'Mathilde',
     age: '29',
     address: 'Tbilisi'
 }
-console.log("My name is " + myObject.name)
-console.log("My age is " + myObject.age)
-console.log("My address is " + myObject.address)
+]
+
+// სტრინგების გამოტანა console.log-ში #3
+console.log("My name is " + myObject[0]["name"])
+console.log("My age is " + myObject[0]["age"])
+console.log("My address is " + myObject[0]["address"])
+
+// if/esle statement #4
+if (myObject[0]["age"] < 19) {
+    console.log("I am a teenager")
+    
+} else {
+    console.log("I am an adult")
+}
