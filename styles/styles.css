@@ -4,3 +4,6 @@ body {
 .jsless {
     text-align: center;
 }
+.jsless:hover {
+    color: yellow;
+}
